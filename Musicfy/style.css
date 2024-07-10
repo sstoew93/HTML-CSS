@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navigation {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding: 0 20px;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navigation img {
+    width: 70px;
+}
+
+.taxes {
+    background-color: #1db954;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    max-height: 400px;
+}
+
+.plan {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+.taxes::before {
+    content: "";
+    background: url("./images/music.png") no-repeat;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.taxes h1 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    flex: 0 0 100%;
+    font-size: 2em;
+}
+
+.taxes article {
+    background-color: white;
+    outline: 1px solid gray;
+    border-radius: 15px;
+    flex: 0 0 28%;
+    margin: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.taxes article h3 {
+    opacity: 70%;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex: 1 1 100%;
+}
+
+.taxes article ul {
+    list-style: circle;
+    padding: 20px 60px;
+}
+
+.taxes article ul li {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+
+.taxes article .buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.taxes article  button {
+    background-color: #1db954;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+}
+
+.taxes article .prices {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #191414;
+    color: white;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+.taxes article .prices p {
+    padding: 30px;
+    flex: 0 1 50%;
+    font-size: 18px;
+}
+
+.taxes article .prices p:nth-child(2){
+    border-left: 1px solid white;
+    text-align: center;
+    height: 80%;
+    margin-top: 9px;
+}
+
+main {
+    margin-top: 25em;
+}
+
+.section-main {
+    padding: 0 7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-main img {
+    width: 500px;
+}
+
+.section-main .info {
+    padding: 10px 0 30px 0;
+    flex: 0 0 60%;
+}
+
+.section-main .info h2 {
+    padding-bottom: 20px;
+}
+
+.section-main .info p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.table h1 {
+    text-align: center;
+    font-size: 42px;
+    padding: 25px 0 35px 0;
+}
+
+.table p {
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 25px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tr {
+    background-color: #cccbcb;
+}
+
+tr .green {
+    background-color: #81d8a0;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #191414;
+}
+
+footer p {
+    padding: 35px;
+    color: rgb(173, 173, 173);
+    text-align: center;
+    font-size: 21px;
+}
+
+table tr .crossmark {
+    font-size: 28px;
+    color: red;
+    font-weight: bold;
+}
+
+.checkmark {
+    font-size: 28px;
+    color: rgb(0, 165, 0);
+    font-weight: bold;
+}
+
+
+
