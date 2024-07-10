@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2em;
+    padding: 2em 3em;
+    background-image: url("image/background.jpg");
+}
+
+section {
+    margin: 1em;
+    padding: 2em;
+    background-color: white;
+    flex: 1 0 30%;
+}
+
+.pricing {
+    color: #727272;
+    padding-bottom: 15px;
+}
+
+span {
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.feature::before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    padding: 0 3px;
+}
+
+.summary {
+    opacity: 50%;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+.feature {
+    padding: 5px 0;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.standart {
+    height: 500px;
+}
+
+.basic,
+.premium {
+    height: 470px;
+}

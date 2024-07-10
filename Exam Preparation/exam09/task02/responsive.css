@@ -1,0 +1,78 @@
+@media screen and (max-width: 600px) {
+    .site-navigation ul {
+        display: none;
+    }
+
+    .entry-header {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+            url(./images/header-image.jpg) no-repeat;
+            background-position: center;
+    }
+
+    .button-primary {
+        width: 137px;
+        padding: 2rem 2rem;
+    }
+
+    .site-logos-container {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: auto;
+        justify-content: space-evenly;
+    }
+
+    .site-logo {
+        width: 30%;
+    }
+
+    .site-main {
+        margin: 0;
+    }
+
+    .site-information {
+        flex-direction: column;
+    }
+
+    .site-information-text {
+        text-align: center;
+    }
+
+    .entry-description {
+        display: block;
+        width: 70%;
+        padding-bottom: 40px;
+        margin: 0 auto;
+        
+    }
+
+    .site-form-container h2 {
+        font-size: 14px;
+    }
+
+    .site-form form > p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    p label {
+        flex: 1 0 100%;
+    }
+
+    .site-form button {
+        margin: 0 auto;
+    }
+
+    .site-posts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .site-post {
+        flex: 1 0 100%;
+    }
+
+    .site-footer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}

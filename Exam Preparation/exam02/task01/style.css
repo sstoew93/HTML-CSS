@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+    line-height: 1.5em;
+}
+
+body {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+.container {
+    display: flex;
+    background-color: #90caf9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    padding: 3em 0em 3em 3em;
+}
+.text-content {
+    padding: 40px;
+    max-width: 80%;
+    align-content: center;
+    padding: 2em 0em 2em 2em;
+}
+.text-content h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+.text-content p {
+    margin: 20px 0;
+    color: #383838;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.buttons .get-started {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid black;
+}
+.buttons .learn-more {
+    background-color: white;
+    color: black;
+}
+
+.buttons .learn-more:hover {
+    background-color: black;
+    color: white;
+}
+
+.buttons .get-started:hover {
+    background-color: black;
+    color: white;
+}
+
+.image-content img {
+    width: 300px;
+    box-shadow: 12px 11px 1em 0 rgba(0, 0, 0, 0.4);
+}
+
+.image-content {
+    margin: 1em;
+}

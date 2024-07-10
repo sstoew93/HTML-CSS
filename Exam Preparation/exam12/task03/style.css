@@ -1,0 +1,201 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 16px/1.5 "Lato", sans-serif;
+}
+
+button {
+    font-family: inherit;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+header .logo h1 {
+    padding-left: 20px;
+}
+
+header .logo h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header .logo h4 {
+    margin-left: -14px;
+    opacity: 50%;
+}
+
+header .logo h1::after {
+    content: "";
+    border-right: 2px solid black;
+    opacity: 20%;
+    padding-left: 20px;
+}
+
+header nav ul {
+    margin: 30px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+li a {
+    background-color: #ececec;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-size: 16px;
+}
+
+li a:hover {
+    transition: 0.3s;
+    background-color: #e24e2a;
+    color: white;
+}
+
+.header-img {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.header-img img {
+    width: 100%;
+    position: relative;
+    bottom: 13em;
+}
+
+.disclaimer p {
+    background-color: #e24e2a;
+    padding: 50px 160px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-weight: 300;
+}
+
+.disclaimer p span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.features .feature i {
+    color: white;
+    background-color: #e24e2a;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.features {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #383838;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature h3 {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feature .desc::before {
+    content: "";
+    border-bottom: 2px solid #494949;
+    display: block;
+    width: 95%;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.feature .desc {
+    color: #696a6c;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.about button {
+    display: block;
+    color: white;
+    border: none;
+    background-color: #1b9772;
+    padding: 10px 30px;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px auto 50px;
+    box-shadow: 10px 10px 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+.about {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-weight: 500;
+    opacity: 70%;
+}
+
+.about h4 {
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #383838;
+    padding: 50px 20px;
+}
+
+.partners h3 {
+    color: rgb(216, 216, 216);
+    padding-bottom: 30px;
+}
+
+.partners p {
+    color: #656965;
+}
+
+footer {
+    background-color: #1b9772;
+}
+
+footer p {
+    text-align: center;
+    color: #57b297;
+    padding: 50px;
+    opacity: 50%;
+}
+
+footer p span {
+    color: aliceblue;
+}

@@ -1,0 +1,152 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+input, button, label {
+    font-family: inherit;
+}
+
+.container {
+    background-color: #fafafa;
+    width: 900px;
+    display: flex;
+    border: 1px none none;
+    box-shadow: 10px 5px 1em 0 rgb(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.section {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 1),
+                       rgba(0, 0, 0, 0.5)), url("./image/cover.jpg") center;
+    background-size: cover;
+    flex: 0 0 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section h4 {
+    padding: 2em;
+    color: white;
+    flex: 1 0 100%;
+}
+
+.section h2,
+.section h3 {
+    color: white;
+}
+
+
+/* FORM */
+.register {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form {
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+label {
+    opacity: 35%;
+    font-weight: bold;
+    margin-left: 5%;
+    
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid black;
+    opacity: 75%;
+    width: 90%;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+input::placeholder {
+    padding-left: 1em;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:3em;
+    
+    margin: 40px auto 10px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    opacity: 50%;
+}
+
+i {
+    text-decoration: none;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1em;
+    padding-bottom: 30px;
+}
+
+.titles {
+    margin-top: 50px;
+}
+
+.titles h2,
+.titles h3 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

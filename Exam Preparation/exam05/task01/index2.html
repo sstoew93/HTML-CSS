@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url("images/background.jpg");
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .quote-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .quote-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 300px;
+            width: 100%;
+        }
+        .quote-card img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .quote-card blockquote {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #333;
+            margin: 0;
+        }
+        .quote-card .author {
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #000;
+        }
+        .quote-card .job-title {
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="quote-container">
+        <div class="quote-card">
+            <img src="images/person1.jpg" alt="Stanley Kimball">
+            <blockquote>Stay away from those people who try to disparage your ambitions. Small minds will always do that, but great minds will give you a feeling that you can become great too.</blockquote>
+            <div class="author">Stanley Kimball</div>
+        </div>
+        <div class="quote-card">
+            <img src="images/person2.jpg" alt="Friday Davison">
+            <blockquote>Success is peace of mind, which is a direct result of self-satisfaction in knowing you made the effort to become the best of which you are capable.</blockquote>
+            <div class="author">Friday Davison</div>
+        </div>
+        <div class="quote-card">
+            <img src="images/person3.jpg" alt="John Doe">
+            <blockquote>Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results. Individual commitment to a group effort—that is what makes a team work, a company work, a society work, a civilisation work.</blockquote>
+            <div class="author">John Doe</div>
+            <div class="job-title">Software Engineer</div>
+        </div>
+    </div>
+</body>
+</html>

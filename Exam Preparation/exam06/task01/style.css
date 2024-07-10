@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    padding: 2em;
+    font-family: "Inter", sans-serif;
+}
+
+section .author {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+section p::after {
+    display: flex;
+    content: "";
+    border-top: 1px solid black;
+    width: 90%;
+    margin: 1em 1em 1em 0;
+    opacity: 50%;
+}
+
+section p {
+    opacity: 85%;
+}
+
+section p,
+section h4,
+section h3 {
+    padding-left: 2em;
+    width: 90%;
+    text-align: start;
+}
+
+img {
+    display: block;
+    height: 50%;
+}
+
+h3 {
+    opacity: 60%;
+    padding: 15px 0 10px 0;
+    margin-left: -7px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d9d9d9;
+}
+
+.container section {
+    flex: 1 0 30%;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4em 0 2em;
+}
+
+.footer .img {
+    display: flex;
+    align-items: center;
+}
+
+h6 {
+    opacity: 80%;
+    padding-left: 5px;
+}
+
+time {
+    opacity: 40%;
+}
+
+.title {
+    opacity: 100%;
+}

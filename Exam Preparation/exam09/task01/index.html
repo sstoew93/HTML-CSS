@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fitness Calculator</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section class="container">
+            <div class="image">
+                <img src="image/calculator.png" alt="" />
+            </div>
+            <div class="calc">
+                <h2>FITNESS CALCULATOR</h2>
+                <buttons class="buttons">
+                    <button>Standart units (US)</button>
+                    <button>Metric units</button>
+                </buttons>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="gender">
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <input
+                                type="text"
+                                id="age"
+                                name="age"
+                                placeholder="Years..."
+                            />
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="weight">Weight</label>
+                        <input
+                            type="text"
+                            id="weight"
+                            name="weight"
+                            placeholder="Pounds..."
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="height">Height</label>
+                        
+                            <input
+                                type="text"
+                                id="height"
+                                name="height-feet"
+                                placeholder="Feet..."
+                            />
+                            <input
+                                type="text"
+                                id="height"
+                                name="height-inches"
+                                placeholder="Inches..."
+                            />
+                    </div>
+                    <input class="submit-button" type="submit" value="Calculate">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

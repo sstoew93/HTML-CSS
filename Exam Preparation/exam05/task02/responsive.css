@@ -1,0 +1,54 @@
+@media screen and (max-width: 600px) {
+    .header-title h1 {
+        font-size: 2.5em;
+    }
+
+    header {
+        background-size: 140% 100%;
+        margin-top: -20px;
+        margin-bottom: -40px;
+        padding: 4em 0 0 0;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 0 auto;
+        padding: 0 0 10px 0;
+    }
+
+    header nav ul {
+        margin: 0 auto;
+    }
+
+    .team-description ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .team-description ul li img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .blog-news ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 2em;
+    }
+
+    .choose-us ul {
+        display: block;
+    }
+
+    .choose-us > ul > li > p {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .team-description > div > ul > li {
+        padding-bottom: 3em;
+    }
+}

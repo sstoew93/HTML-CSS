@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    .home-blog > div > div {
+        display: block;
+    }
+
+    .blog-post-card3-root-class-name {
+        display: block;
+    }
+
+    .home-pricing > div {
+        display: block;
+        
+    }
+
+    .home-container08 {
+        display: block;
+        width: 100%;
+    }
+
+    .home-container07 {
+        align-items: center;
+    }
+
+    .home-container07 > span {
+        text-align: center;
+    }
+
+    .home-container09 {
+        margin-bottom: 25px;
+        width: 90%;
+        margin-right: 0px;
+        margin-left: 25px;
+    }
+
+    .home-container10 {
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    .home-container02 {
+        width: 100%;
+    }
+
+    .home-container07 > span {
+        width: 100%;
+    }
+    
+
+
+
+
+}
